@@ -1,13 +1,7 @@
-
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/dunk-and-caffeine/',
-  server: {
-    port: 3000,
-    open: true
-  },
-  
-});
+  base: '/dunk-and-caffeine/'  // ← Keep this (with trailing slash)
+})

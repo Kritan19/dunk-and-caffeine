@@ -1,9 +1,9 @@
 {
+  "homepage": "https://kritan19.github.io/dunk-and-caffeine",
   "name": "dunk-and-caffeine",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://kritan19.github.io/dunk-and-caffeine",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

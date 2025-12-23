@@ -1,6 +1,5 @@
-
-import React, { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -9,6 +8,7 @@ import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 
+// This component ensures the page scrolls to top when you switch routes
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {

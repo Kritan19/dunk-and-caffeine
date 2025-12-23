@@ -1,5 +1,11 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/dunk-and-caffeine/',
-})
+  plugins: [react()],
+  // Replace 'dunk-and-caffeine' with your actual repository name
+  base: '/dunk-and-caffeine/', 
+  build: {
+    outDir: 'dist',
+  }
+});

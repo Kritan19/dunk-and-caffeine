@@ -15,7 +15,3 @@ A sample coffee shop website featuring menu, about, and contact sections. Built 
 HTML, CSS, JavaScript  
 Deployed on GitHub Pages
 
-## Setup
-
-```bash
-git clone https://github.com/kritan19/dunk-and-caffeine.git
